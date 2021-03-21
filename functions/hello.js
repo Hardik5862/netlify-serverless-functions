@@ -1,5 +1,6 @@
 // domain/.netlify/functions/hello
-exports.handler = async = (event, context) => {
+
+exports.handler = async (event, context) => {
   return {
     headers: {
       "Access-Control-Allow-Origin": "*",
